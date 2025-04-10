@@ -1,5 +1,5 @@
 import os
-from training.main import main as train_main
+from temp import main as train_main
 
 def train_bioclip():
     args = [
