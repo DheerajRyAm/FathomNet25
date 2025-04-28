@@ -71,7 +71,7 @@ tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip')
 
 # Load your trained weights
 # Load the checkpoint
-model = torch.load("Saved_6/bioclip_epoch1_loss0.0000.pth", map_location=device)
+model = torch.load("Saved_6/bioclip_epoch1_loss0.0000.pth", map_location=device, weights_only=False)
 
 model.to(device)
 
