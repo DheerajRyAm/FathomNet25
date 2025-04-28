@@ -71,7 +71,7 @@ tokenizer = open_clip.get_tokenizer('hf-hub:imageomics/bioclip')
 
 # Load your trained weights
 # Load the checkpoint
-state_dict = torch.load("bioclip_finetuned_1.pth", map_location=device)
+state_dict = torch.load("Saved_6/bioclip_epoch1_loss0.0000.pth", map_location=device)
 
 # Fix "module." prefix if present
 new_state_dict = {}
