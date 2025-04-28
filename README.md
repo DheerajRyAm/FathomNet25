@@ -1,4 +1,10 @@
 # FGVC Kaggle Competition 2025
+
+Load Miniconda 24.1.2 with Python 3.10 environment:
+```bash
+module load miniconda3/24.1.2-py310
+```
+
 Install all the required libraries:
 ```bash
 pip install -r requirements.txt
