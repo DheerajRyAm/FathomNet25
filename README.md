@@ -13,7 +13,7 @@ To run the model please use this command:
 ```bash
 python run.py
 ```
-It will predict all images in input_image folder and save the result as output.png. In case you want more image from the competition dataset, run this command:
+It will predict all images in input_image folder and save the result as output.png. In case you want more image from the competition dataset, this is an example command:
 ```bash
 python image.py --mode train --ann_id 1
 ```
