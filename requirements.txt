@@ -2,3 +2,8 @@ httpx
 pillow
 coco-lib
 tqdm
+requests
+torch
+torchvision
+open_clip_torch
+matplotlib
