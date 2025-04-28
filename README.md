@@ -1,3 +1,10 @@
+#Running the code
+Type this before running the code to make sure you have all packages.
+module load miniconda3/24.1.2-py310
+pip install -r requirements.txt
+
+
+
 # FGVC Kaggle Competition 2025
 
 Navigating the Depths: Advancing Hierarchical Classification of Ocean Life
